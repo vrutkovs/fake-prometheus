@@ -1,0 +1,4 @@
+FROM registry.ci.openshift.org/4.12:base
+WORKDIR /code
+COPY . .
+CMD ["python3", "/code/main.py"]
